@@ -9,7 +9,7 @@ export default function Register() {
   const [isLoading,setIsLoading] = useState(false)
   const [errorMsg,setErrorMsg] = useState("")
   const [successMsg,setsuccessMsg] = useState("")
-const navigate = useNavigate()
+  const navigate = useNavigate()
 
 let { handleSubmit,values,handleChange,errors,touched,handleBlur } = useFormik({
     initialValues: {
@@ -50,8 +50,7 @@ let { handleSubmit,values,handleChange,errors,touched,handleBlur } = useFormik({
     setErrorMsg(err.response.data.message)
     
    })
-   
-   
+ 
 }
 
 
@@ -64,6 +63,7 @@ let { handleSubmit,values,handleChange,errors,touched,handleBlur } = useFormik({
      Register
    </title>
  </Helmet>
+
   <div className='min-h-screen flex justify-center items-center'>
     <div className="w-full md:w-1/2 lg:w-1/3 mx-auto  bg-white dark:bg-gray-800 rounded-lg shadow-md px-8 py-10 flex flex-col items-center">
     <h1 className="text-xl font-bold text-center text-gray-700 dark:text-gray-200 mb-8">Welcome to FreshCart</h1>

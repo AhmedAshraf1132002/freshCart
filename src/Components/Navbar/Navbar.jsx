@@ -76,10 +76,12 @@ function signOut()
         <li><NavLink to={"/Brands"} className="block px-1 py-2 text-white bg-gray-900 rounded">Brands</NavLink></li>
         <li><NavLink to={"/Cart"} className="block px-1 py-2 text-white bg-gray-900 rounded">Cart</NavLink></li>
       </ul>
+       
     </div>}
     
   </nav>
 </header>
+
 
 
     </>

@@ -28,11 +28,14 @@ export default function Products() {
       <Helmet>
         <title>products</title>
       </Helmet>
-      <div className="grid grid-cols-4 gap-3">
-        {data?.data.data.map((product, index) => {
-          return <Product product={product} key={index} />;
-        })}
+          <div className="px-4 sm:px-6 lg:px-8 py-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {data?.data.data.map((product, index) => (
+            <Product product={product} key={index} />
+          ))}
+        </div>
       </div>
+
     </>
   );
 }
