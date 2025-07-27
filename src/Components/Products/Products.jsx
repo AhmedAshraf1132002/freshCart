@@ -35,6 +35,13 @@ export default function Products() {
           ))}
         </div>
       </div>
+      
+      {/* <div className="grid grid-cols-4 gap-3">
+        {data?.data.data.map((product, index) => {
+          return <Product product={product} key={index} />;
+        })}
+      </div> */}
+
 
     </>
   );
