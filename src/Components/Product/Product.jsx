@@ -20,12 +20,12 @@ export default function Product({ product }) {
             <h3 className="text-gray-900 font-semibold text-xl tracking-tight dark:text-white line-clamp-1">
               {product.title}
             </h3>
-            <p classNameName="line-clamp-2">{product.description}</p>
+            <p className="line-clamp-2">{product.description}</p>
           </Link>
           <div className="flex justify-between items-center ">
             <RatingStars rating={product?.ratingsAverage} />
             <button onClick={() => addProductToCart(product._id)}>
-              <i class="fa-solid fa-heart fa-1x"></i>
+              <i className="fa-solid fa-heart fa-1x"></i>
             </button>
           </div>
 

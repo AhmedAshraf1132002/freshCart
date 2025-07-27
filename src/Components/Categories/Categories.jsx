@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
 import { Helmet } from "react-helmet";
-import logo from "/src/assets/freshCart.png";
+import logo from "/public/freshCart.png";
 
 export default function Categories() {
   function getCategories() {
