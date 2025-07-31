@@ -20,6 +20,7 @@ export default function ProductImageSlider({images}) {
                         alt="Nike Air"
                       />
                     })}
+                    
                   </Slider>
     </>
   )
